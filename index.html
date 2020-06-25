@@ -1,143 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>霞霞与熊熊</title>
-    <style type="text/css">
-      .card {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-        font-size: 16px;
-        padding: 16px;
-        box-shadow: 0 10px 30px 10px #0003;
-        width: fit-content;
-        margin: 50px auto;
-        border-radius: 5px;
-        overflow: hidden;
-      }
-
-      .card::before {
-        content: attr(title);
-        display: block;
-        background: #feb901;
-        color: #563f01;
-        text-shadow: 0 -1px 0 #fff9;
-        border-bottom: 1px solid currentColor;
-        margin: -16px -16px 16px;
-        padding: 16px;
-        font-weight: bold;
-      }
-
-      h1 {
-        color: white;
-        font-size: 45px;
-      }
-    </style>
-    <audio src="img/music.mp3" autoplay="autoplay" loop="loop"></audio>
-    <!--播放音乐-->
+    <title>洛少雄的个人简历</title>
+    <meta name="theme-color" content="#ffc91d" />
+    <link rel="icon" href="static/img/32.png" sizes="32x32" />
+    <link rel="icon" href="static/img/192.png" sizes="192x192" />
+    <link href="static/kico.css" rel="stylesheet" type="text/css" />
+    <link href="static/moreduo.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1, initial-scale=1"
+    />
   </head>
+  <body>
+    <aside class="sidebar">
+      <div class="avatar">
+        <img src="static/img/avatar.jpg" title="保罗酱" />
+      </div>
+      <nav class="nav">
+        <a href="#info">资料</a>
+        <a href="#skills">技能</a>
+        <a href="#works">作品</a>
+        <a href="#story">评价</a>
+        <a href="#team">证明</a>
+      </nav>
+    </aside>
+    <main>
+      <section id="info">
+        <div class="wrap">
+          <h2 class="title">个人资料</h2>
+          <div class="row">
+            <div class="col-l-4">
+              <p>姓名：洛少雄</p>
+              <p>性别：男</p>
+              <p>年龄：22</p>
+              <p>学历：本科</p>
+              <p>专业：软件工程</p>
+            </div>
+            <div class="col-l-4">
+              <p>QQ：2287464558</p>
+              <p>联系方式：18435157318</p>
+              <p>
+                应聘岗位：java开发及相关岗位
+              </p>
+              <p>
+                邮箱：2287464558@qq.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="wrap">
+          <h2 class="title">掌握的技能</h2>
+          <div class="row scrollable">
+            <div class="col-s-6 col-m-4 center-fixed">
+              <div class="skills-icon">
+                <i class="fa fa-adjust" aria-hidden="true"></i>
+              </div>
+              <div class="skills-title">
+                <h3>SSM</h3>
+                <p>了解SpringMVC、Spring、MyBatis等主流开源框架</p>
+              </div>
+            </div>
+            <div class="col-s-6 col-m-4 center-fixed">
+              <div class="skills-icon">
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+              </div>
+              <div class="skills-title">
+                <h3>SpringBoot</h3>
+                <p>熟悉SpringBoot开源框架的使用</p>
+              </div>
+            </div>
+            <div class="col-s-6 col-m-4 center-fixed">
+              <div class="skills-icon">
+                <i class="fa fa-code"></i>
+              </div>
+              <div class="skills-title">
+                <h3>HTML</h3>
+                <p>能使用HTML、CSS、Bootstrap技术制作简单界面</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <div class="wrap">
+          <h2 class="title">个人作品</h2>
+          <div class="row">
+            <div class="col-s-6">
+              <div class="works-item">
+                <img src="static/img/works/1.png" />
+                <p>高校科研提交与统计系统</p>
+              </div>
+            </div>
+            <div class="col-s-6">
+              <div class="works-item">
+                <img src="static/img/works/2.png" />
+                <p>高校科研提交与统计系统</p>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-s-6">
+                  <div class="works-item">
+                    <img src="static/img/works/3.png" />
+                    <p>高校科研提交与统计系统</p>
+                  </div>
+                </div>
+                <div class="col-s-6">
+                  <div class="works-item">
+                    <img src="static/img/works/4.png" />
+                    <p>高校科研提交与统计系统</p>
+                  </div>
+                </div>
+          </div>
+      </section>
+      <section id="story">
+        <div class="wrap">
+          <h2 class="title">自我评价</h2>
+          <div class="row">
+            <div class="col-m-8">
+              <ul class="timeline">
+                <li>为人踏实稳重，适应能力强，有一定的抗压能力。</li>
+                <li>
+                  具备良好的沟通能力和高度的团队合作意识，能快速融入团队。
+                </li>
+                <li>
+                  对业界新技术敏感，喜欢钻研，具有良好的学习能力并注重团队合作。
+                </li>
+                <li>
+                  热爱编程，在工作中，有着强烈的责任心，能保持不断进取的精神，有高度执行力。
+                </li>
+                <li>
+                  喜欢读书，打羽毛球，跑步，听歌，偶尔也会打游戏放松放松。
+                </li>
+              </ul>
+            </div>
+            <div class="col-m-4 center-fixed">
+              <img src="static/img/story.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <div class="wrap">
+          <h2 class="title">相关证明</h2>
+          <div class="row">
+            <div class="col-s-4">
+              <div class="works-item">
+                <img src="static/img/my/111.png" />
+                <p>学信网学籍证明</p>
+              </div>
+            </div>
+            <div class="col-s-4">
+              <div class="works-item">
+                <img src="static/img/my/c.jpg" />
+                <p>先进工作者</p>
+              </div>
+            </div>
+            <div class="col-s-4">
+              <div class="works-item">
+                <img src="static/img/my/d.jpg" />
+                <p>先进个人</p>
+              </div>
+            </div>
+          </div>
+              <div class="row">
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/e.jpg" />
+                    <p>三等综测奖学金</p>
+                  </div>
+                </div>
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/f.jpg" />
+                    <p>优秀个人</p>
+                  </div>
+                </div>
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/g.jpg" />
+                    <p>优秀志愿者</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/h.jpg" />
+                    <p>计算机二级证书</p>
+                  </div>
+                </div>
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/i.jpg" />
+                    <p>优秀志愿者</p>
+                  </div>
+                </div>
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/j.jpg" />
+                    <p>跑步排位赛</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/a.jpg" />
+                    <p>互联网+</p>
+                  </div>
+                </div>
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/l.jpg" />
+                    <p>工作证明</p>
+                  </div>
+                </div>
+                <div class="col-s-4">
+                  <div class="works-item">
+                    <img src="static/img/my/b.jpg" />
+                    <p>积极分子</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      
+      <footer>
+        <p>
+          © 2020 By ErXiong
+        </p>
+      </footer>
+    </main>
 
-  <body background="img\q.png">
-    <center>
-      <h1>女生节快乐，我的宝贝</h1>
-      <hr />
-
-      <table>
-        <tr>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\1.jpg">
-                <img width="300" height="250" src="img\1.jpg" />
-              </a>
-            </div>
-          </td>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\2.jpg">
-                <img width="300" height="250" src="img\2.jpg" />
-              </a>
-            </div>
-          </td>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\3.jpg">
-                <img width="300" height="250" src="img\3.jpg"
-              /></a>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\4.jpg">
-                <img width="300" height="250" src="img\4.jpg"
-              /></a>
-            </div>
-          </td>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\5.jpg">
-                <img width="300" height="250" src="img\5.jpg"
-              /></a>
-            </div>
-          </td>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\6.jpg">
-                <img width="300" height="250" src="img\6.jpg"
-              /></a>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\7.jpg">
-                <img width="300" height="250" src="img\7.jpg" />
-              </a>
-            </div>
-          </td>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\8.jpg">
-                <img width="300" height="250" src="img\8.jpg" />
-              </a>
-            </div>
-          </td>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\9.jpg">
-                <img width="300" height="250" src="img\9.jpg"
-              /></a>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\10.jpg">
-                <img width="300" height="250" src="img\10.jpg"
-              /></a>
-            </div>
-          </td>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\11.jpg">
-                <img width="300" height="250" src="img\11.jpg"
-              /></a>
-            </div>
-          </td>
-          <td>
-            <div class="card" title="爱的小屋">
-              <a href="img\12.jpg">
-                <img width="300" height="250" src="img\12.jpg"
-              /></a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </center>
+    <script src="static/kico.js"></script>
+    <script src="static/moreduo.js"></script>
   </body>
 </html>
